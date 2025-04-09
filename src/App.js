@@ -63,7 +63,7 @@ function App() {
         {isDarkMode ? '☀️ Day Mode' : '🌙 Night Mode'}
       </button>
 
-      <h1 className="title">Tasbih Counter 🕌</h1>
+      <h1 className="title">🕌 Tasbih Counter 🕌</h1>
 
       {/* Custom Dhikr Input */}
       <div className="add-dhikr">
@@ -97,7 +97,11 @@ function App() {
       </div>
 
       {message && <div className="message">{message}</div>}
+      <footer className="footer">
+        <p>Designed and Developed by NASIF KABIR</p>
+      </footer>
     </div>
+    
   );
 }
 

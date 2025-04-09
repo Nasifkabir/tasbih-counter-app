@@ -175,3 +175,18 @@ body {
   color: white;
   border-color: #38bdf8;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #10b981; /* Green color or any color that matches your theme */
+  position: absolute;
+  bottom: 10px; /* To keep it at the bottom of the screen */
+  width: 100%;
+  font-weight: bold;
+}
+
+.dark .footer {
+  color: #e2e8f0; /* Light color for dark mode */
+}
